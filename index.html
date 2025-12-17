@@ -40,26 +40,6 @@ html, body {
   z-index: 100;
 }
       
-.card {
-  overflow: hidden;
-  transition: height 0.8s ease;
-}
-
-.slide {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transform: translateX(20px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
-}
-
-.slide.active {
-  opacity: 1;
-  transform: translateX(0);
-  position: relative;
-}
-
-
       nav h2 {
   position: absolute;
   left: 50%;
@@ -375,20 +355,6 @@ html, body {
     </style>
   </head>
   <body>
-    <div class="card">
-  <div class="slide active">
-    <div class="slide-content">
-      <!-- isi teks -->
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-content">
-      <!-- isi teks lain -->
-    </div>
-  </div>
-</div>
-
     <div class="music-overlay" id="musicOverlay">
       <div class="overlay-content">
         <p>Tap Untuk Mulai</p>
