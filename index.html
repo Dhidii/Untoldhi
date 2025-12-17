@@ -66,9 +66,11 @@ html, body {
       }
 
       section {
-        min-height: 100vh;
-        padding: 120px 6% 80px;
-      }
+  height: calc(100vh - 80px); /* 80px = tinggi navbar */
+  padding: 24px 6% 24px;
+  overflow: hidden;
+}
+
 
       .glass {
         background: rgba(255, 255, 255, 0.18);
